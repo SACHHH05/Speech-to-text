@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0a0a0f;
+  --surface: #13131a;
+  --border: #1f1f2e;
+  --accent: #7c3aed;
+  --accent-glow: #a855f7;
+  --text: #e2e8f0;
+  --muted: #64748b;
+  --danger: #ef4444;
+  --success: #22c55e;
+  --warning: #f97316;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Mono', monospace;
+}
