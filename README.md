@@ -38,7 +38,7 @@ The module follows a client–server architecture designed for low-latency strea
 
 <h3>AI Layer GPU Accelerated</h3>
 <ul>
-  <li>Uses NVIDIA RTX 3060 (if available)</li>
+  <li>Uses GPU(if available)</li>
   <li>Automatic CUDA detection</li>
   <li>Optimized inference for streaming transcription</li>
 </ul>
